@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       
+        <title>Tourist spot</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript">
+            window.addEventListener("load",start,false);
+            function start()
+            {
+
+
+                
+                document.getElementById("two").addEventListener("mouseover",moveone,false);
+                document.getElementById("two").addEventListener("mouseout",leaveone,false);
+                document.getElementById("three").addEventListener("mouseover",imageone,false);
+                document.getElementById("three").addEventListener("mouseout",imagetwo,false);
+                
+            }
+
+            function moveone()
+            {
+                document.getElementById("one").innerHTML="suganeswarann@gmail.com";
+            }
+            function leaveone()
+            {
+                document.getElementById("one").innerHTML="";
+            }
+
+           
+            function imageone()
+            {
+                document.getElementById("three").setAttribute("src","download.jpg")
+            }
+            function imagetwo()
+            {
+                document.getElementById("three").setAttribute("src","it2.jpg")
+            }
+
+        </script>
+    </head>
+    <body>
+        <h1 style="text-align :center">
+            TOURIST POINT
+        </h1>
+        <nav class="navbar navbar-inverse" style="font-size: larger;">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Tourist spot</a>
+              </div>
+              <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                  <li class="active"><a href="#">Home</a></li>
+                  
+                  <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Travel
+                    <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="flights.html">flights</a></li>
+                      <li><a href="car.html">car retals</a></li>
+                      
+                    </ul>
+                  </li>            
+                  <li><a href="stays.html">Stays</a></li>
+                 
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="signin.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                  <li><a href="login1.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <div class="container-fluid">
+            <p style="font-size:150%">Tourism is travel for pleasure or business, also the theory and practice of touring, the business of attracting, accommodating, and entertaining tourists, and the business of operating tours
+            </p>
+           <h2 >
+                choose the tourist spot
+            </h2>
+            
+             <h3>   EXPLORE INDIA</h3>
+             
+            <div class="row">
+               
+                <div class="col-md-2">
+                  
+                
+                <img id="three" src="it2.jpg" class="img-rounded" width="170"height="170">
+                <p id="move">Chennai</p>
+                
+                </div>
+                <div class="col-md-2">
+                <img src="delhi img.jpg " class="img-rounded" width="170"height="170">
+                
+                <p>Delhi</p>
+                </div>
+                <div class="col-md-2">
+                    <img src="mum.jpg " class="img-rounded" width="170"height="170">
+                    
+                    <p>Mumbai</p>
+                 </div>
+                <div class="col-md-2">
+                    <img src="goa.jpg"class="img-rounded" width="170"height="170">
+                    <p>Goa</p>
+                </div>
+                
+                <div class="col-md-2">
+                    <img src="ban.jpg"class="img-rounded" width="170"height="170">
+                    <p>Bangalore</p>
+    
+                </div> 
+                <div class="col-md-2">
+                    <img src="hyd.jpg"class="img-rounded" width="170"height="170">
+                    <p>Hyderabad</p>
+                </div>       
+             </div> 
+            
+            <h3>EXPLORE AMIRICA</h3>
+            <div class="row">
+            <div class="col-md-2">
+            <img src="img.jpg" class="img-rounded"width="170" height="170"><br>
+            </div>
+            <div class="col-md-2">
+             <img src="img2.jpg"  class="img-rounded"width="170" height="170">
+            </div>
+            <div class="col-md-2">
+                <img src="br 4.jpg"  class="img-rounded"width="170" height="170">
+            </div>
+            <div class="col-md-2">
+                <img src="br6.jpeg"  class="img-rounded"width="170" height="170">
+            </div>
+            <div class="col-md-2">
+                <img src="br7.jpg"  class="img-rounded"width="170" height="170">
+            </div>
+            <div class="col-md-2">
+                <img src="br8.jpg"  class="img-rounded"width="170" height="170">
+            </div>
+            </div>
+            <br>
+            <br>
+    
+            <h3 style=color:black> EXPLORE BRITAIN</h3>
+            <div class="row">
+                <div class="col-md-2">
+                    <img src="brit img.jpg" class="img-rounded" width="170" height=170>
+                </div>
+                <div class="col-md-2">
+                    <img src="brit 1.jpg" class="img-rounded" width="170" height=170>
+                </div>
+                <div class="col-md-2">
+                    <img src="br2.jpg" class="img-rounded" width="170" height=170>
+                </div>
+                <div class="col-md-2">
+                    <img src="brt2.jpg" class="img-rounded" width="170" height=170>
+                </div>
+                <div class="col-md-2">
+                    <img src="brt4.jpg" class="img-rounded" width="170" height=170>
+                </div>
+                <div class="col-md-2">
+                    <img src="brt6.jpg" class="img-rounded" width="170" height=170>
+                </div>
+                
+                
+            </div>
+            <br>
+            <h3> EXPLORE DUBAI</h3>
+    
+            <div class="row">
+                <div class="col-md-2">
+                    <img src="dub 1.jpg"  class="img-rounded" width="170" height=170> 
+                </div>
+                <div class="col-md-2">
+                    <img src="dub 2.jpg"  class="img-rounded" width="170" height=170> 
+                </div>
+                <div class="col-md-2">
+                    <img src="dub3.jpg"  class="img-rounded" width="170" height=170> 
+                </div>
+                <div class="col-md-2">
+                    <img src="dub4.jpg"  class="img-rounded" width="170" height=170> 
+                </div>
+                <div class="col-md-2">
+                    <img src="dub5.jpg"  class="img-rounded" width="170" height=170> 
+                </div>
+                <div class="col-md-2">
+                    <img src="dub7.jpg"  class="img-rounded" width="170" height=170> 
+                </div>
+            </div>
+            
+            
+            <br><br>
+             
+          <div class="container">
+            <table class="table table-hover table-bordered  ">
+                <thead >
+                <tr>
+                    <th>tourist spot</th>
+                    <th>famous place</th>
+                    <th>cost</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="success">
+                    <td>chennai</td>
+                    <td>Marina Beach,Mylapore,Thousand Lights Mosque, Ashtalakshmi Temple</td>
+                    <td>5000</td>
+                </tr>
+                <tr class="active">
+                    <td>bangalore</td>
+                    <td>Bangalore Palace,
+                        Tipu Sultans Summer Palace,
+                        Lal Bagh Botanical Gardens,,
+                        Nandi Hills,
+                        Cubbon Park</td>
+                    <td>8000</td>
+                </tr>
+                <tr class="danger">
+                    <td>
+                        mumbai
+                    </td>
+                    <td>Gateway of India,Sanjay Gandhi National Park,Haji Ali Dargah,ISKCON Temple</td>
+                    <td>8500</td>
+                </tr>
+                <tr class="warning">
+                    <td>delhi</td>
+                    <td>The Red Fort,Qutub Minar,Lodi Gardens,The Lotus Temple</td>
+                    <td>9200</td>
+                </tr>
+                <tr class="info">
+                    <td>
+                        jammu and kaskmir
+                    </td>
+                    <td>Yusmarg,Gulmarg,Sonmarg,Pahalgam,ladak</td>
+                    <td>10000</td>
+                </tr>
+            </tbody>  
+            </table>
+            </div>
+            <div>
+                
+            </div>
+            <a id="two" href="mailto:suganeswarann.20cse@kongu.edu" style="font-size:150%;color:black">mail me</a>
+            <h3 id="one"></h3>
+            <br><br>
+            <br>
+    </body>
+</html>

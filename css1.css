@@ -1,0 +1,80 @@
+.mydiv{
+    border:5px outset red;
+    background-color: lightblue;
+    text-align: center;
+    padding: 12px 12px;
+}
+.get{
+    text-align: center;
+    background-color: rgb(5, 7, 7);
+    color: rgb(127, 127, 212);
+    padding-top:0px;
+    padding-bottom:20px;
+    padding-right: 20px;
+    text-decoration: none;
+}
+.get a{
+    text-decoration: none;
+    float: right;
+    text-align: center;
+    padding: 4px 4px;
+}
+.get a:hover{
+    background-color: rgb(219, 64, 64);
+    color: rgb(196, 86, 92);
+    /* font-family:impact; */
+    
+}
+.food{
+    width: 100%;
+    padding: 12px 20px;
+    display:inline-block;
+    border:1px ;
+    border-radius:4px;
+    box-sizing: border-box;
+}
+.h{
+    color: black;
+    width: 200;
+    height: 200;
+}
+.tab{
+    border:2px solid ;
+    background-color: azure;
+}
+.dropdown{
+    padding: 0 0;
+    margin-left: 20px;
+    float: left;
+    background-color: black;
+}
+.dropbtn{
+    background-color: black;
+    color:aliceblue;
+    border:none;
+    font-size: inherit;
+    cursor: pointer;
+
+}
+.dropcontent{
+    position: absolute;
+    display:none; 
+    font-size:inherit;
+    background-color: black;
+}
+.dropdown:hover .dropcontent{
+    display: block;
+}
+.dropdown:hover .dropbtn{
+    background-color: rgb(219, 64, 64);
+}
+.dropcontent a{
+    color:white;
+    text-decoration: none;
+    min-width: 110px;
+    display:block;
+}
+.dropcontent a:hover{
+    background-color:rgb(219, 64, 64);;
+    color:black;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>form</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <form action="http://localhost:8000/login" method="get">
+    <div class="form-group">
+        <h1>odering details</h1>
+      <label for="name">Name:</label>
+      <input type="fname" class="form-control" id="name" placeholder="name" name="username">
+    </div>
+    <div class="form-group">
+      <label for="mail">Email</label>
+      <input type="email" class="form-control" id="mail" placeholder="email" name="email">
+    </div>
+    <div class="form-group">
+        <label for="count">Room no</label>
+        <input type="tel" class="form-control" id="count" name="pwd">
+      </div>
+      <div class="form-group">
+        <label for="place">Quantity</label>
+        <input type="text" class="form-control" id="place" >
+      </div>
+      <div class="form-group">
+        <label for="room">contact number</label>
+        <input type="pname" class="form-control" id="room" placeholder="">
+      </div>
+      <label>Varity</label>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+        <label class="form-check-label" for="flexRadioDefault1">
+          chicken
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+        <label class="form-check-label" for="flexRadioDefault2">
+          mutton
+        </label>
+      </div>
+    <br>
+      
+    <button type="submit" name="login" class="btn btn-default">Submit</button>
+  </form>
+</div>
+
+</body>
+      
+</html>
